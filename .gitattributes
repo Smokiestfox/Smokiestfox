@@ -1,0 +1,4 @@
+# Keep SVG, Markdown, and workflow diffs consistent across Windows and Linux.
+* text=auto eol=lf
+*.png binary
+*.zip binary
