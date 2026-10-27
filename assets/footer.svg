@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="60" viewBox="0 0 1000 60" role="img" aria-labelledby="title">
+  <title id="title">Small ideas. Useful software.</title>
+  <defs>
+    <linearGradient id="fade"><stop stop-color="#8b949e" stop-opacity="0"/><stop offset=".5" stop-color="#8b949e" stop-opacity=".35"/><stop offset="1" stop-color="#8b949e" stop-opacity="0"/></linearGradient>
+    <style>
+      .packet { animation: drift 12s linear infinite; }
+      @keyframes drift { to { stroke-dashoffset: -900; } }
+      @media (prefers-reduced-motion: reduce) { .packet { animation: none; } }
+    </style>
+  </defs>
+  <path d="M0 9H1000" stroke="url(#fade)"/>
+  <path class="packet" d="M50 9H950" stroke="#e99a68" stroke-width="2" stroke-dasharray="20 880"/>
+  <text x="500" y="42" text-anchor="middle" fill="#8b949e" font-family="Consolas, monospace" font-size="12" letter-spacing="1">Small ideas. Useful software.</text>
+</svg>

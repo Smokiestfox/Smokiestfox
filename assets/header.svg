@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+  <title id="title">Smokiestfox — aspiring backend developer</title>
+  <desc id="desc">An orange geometric fox alongside a terminal. The command types itself, a cursor blinks, and small signals travel around the fox.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#171c26"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="fur" x2="0.8" y2="1">
+      <stop stop-color="#ffbd7a"/>
+      <stop offset="1" stop-color="#f07844"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#f78e51" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#f78e51" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".8" fill="#495263" opacity=".28"/>
+    </pattern>
+    <clipPath id="typing"><rect x="75" y="210" width="445" height="29" class="typed"/></clipPath>
+    <style>
+      text { font-family: 'Cascadia Code', 'SFMono-Regular', Consolas, monospace; }
+      .typed { animation: type 9s steps(31, end) infinite; }
+      .cursor { animation: blink 1.1s steps(1, end) infinite; }
+      .fox { animation: float 6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .signal { animation: travel 16s linear infinite; }
+      .spark { animation: breathe 4s ease-in-out infinite; }
+      @keyframes type { 0%, 9% { width: 0; } 43%, 90% { width: 445px; } 100% { width: 0; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+      @keyframes travel { to { stroke-dashoffset: -800; } }
+      @keyframes breathe { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .typed, .cursor, .fox, .signal, .spark { animation: none; } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="338" rx="20" fill="url(#bg)" stroke="#303744"/>
+  <rect x="1" y="1" width="998" height="338" rx="20" fill="url(#dots)"/>
+  <path d="M1 46H999" stroke="#303744"/>
+  <circle cx="26" cy="24" r="5" fill="#ef8d72"/>
+  <circle cx="44" cy="24" r="5" fill="#e5bd79"/>
+  <circle cx="62" cy="24" r="5" fill="#8abf9e"/>
+  <text x="500" y="29" text-anchor="middle" font-size="12" fill="#8a95a6">smokiestfox / a work in progress</text>
+  <text x="40" y="91" font-size="11" letter-spacing="2.5" fill="#ffb178">CURIOUS MIND. PRACTICAL IDEAS.</text>
+  <text x="37" y="152" font-size="49" font-weight="700" letter-spacing=".2" fill="#f2f0eb">Smokiestfox<tspan fill="#ffad72">.</tspan></text>
+  <text x="40" y="183" font-size="16" fill="#aeb8c7">Aspiring Backend Developer</text>
+  <text x="40" y="231" font-size="17" fill="#ffad72">$</text>
+  <g clip-path="url(#typing)">
+    <text x="75" y="231" font-size="17" fill="#d4deeb">./explore --ideas practical</text>
+    <rect class="cursor" x="349" y="215" width="9" height="19" fill="#ffad72"/>
+  </g>
+  <path d="M40 265H555" stroke="#303744"/>
+  <circle class="spark" cx="45" cy="292" r="4" fill="#ffad72"/>
+  <text x="61" y="296" font-size="12" fill="#909daf">learning / exploring / building</text>
+  <circle cx="798" cy="188" r="145" fill="url(#halo)"/>
+  <circle cx="798" cy="183" r="110" fill="none" stroke="#303744" stroke-dasharray="3 9"/>
+  <circle cx="798" cy="183" r="110" fill="none" stroke="#ffad72" stroke-width="2" stroke-dasharray="12 679" class="signal"/>
+  <path d="M638 183H670M926 183H958M798 56V69M798 297V310" stroke="#45414a"/>
+  <g class="fox">
+    <path d="M713 116L754 138L798 132L842 138L883 116L869 203L798 264L727 203Z" fill="url(#fur)"/>
+    <path d="M713 116L754 138L737 172Z" fill="#d7603b"/>
+    <path d="M883 116L842 138L859 172Z" fill="#d7603b"/>
+    <path d="M723 132L744 144L735 158Z" fill="#302c32"/>
+    <path d="M873 132L852 144L861 158Z" fill="#302c32"/>
+    <path d="M727 190L765 205L798 251L747 223Z" fill="#f6e6ce"/>
+    <path d="M869 190L831 205L798 251L849 223Z" fill="#fff2dd"/>
+    <path d="M798 132L798 238L765 205L754 138Z" fill="#ffb675" opacity=".45"/>
+    <path d="M749 181L769 190L754 192Z" fill="#252832"/>
+    <path d="M847 181L827 190L842 192Z" fill="#252832"/>
+    <path d="M786 237H810L798 249Z" fill="#252832"/>
+  </g>
+  <text x="798" y="319" text-anchor="middle" font-size="10" letter-spacing="2" fill="#a3a8b3">STAY CURIOUS</text>
+</svg>
