@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="56" viewBox="0 0 700 56" role="img" aria-labelledby="title desc">
+  <title id="title">Hey, I'm Smokiestfox!</title>
+  <desc id="desc">A typing greeting alternates with Exploring practical ideas.</desc>
+  <defs>
+    <clipPath id="hello-clip"><rect class="hello-reveal" width="310" height="56"/></clipPath>
+    <clipPath id="ideas-clip"><rect class="ideas-reveal" width="396" height="56"/></clipPath>
+    <style>
+      text { font: 700 24px Consolas, 'Cascadia Code', monospace; fill: #d9773d; }
+      .cursor { fill: #d9773d; animation: blink 1s steps(1, end) infinite; }
+      .hello { animation: hello 14s steps(1, end) infinite; }
+      .ideas { opacity: 0; animation: ideas 14s steps(1, end) infinite; }
+      .hello-reveal { animation: type-hello 7s steps(21, end) infinite; }
+      .ideas-reveal { animation: type-ideas 7s steps(27, end) infinite; }
+      @keyframes hello { 0%, 49.99% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes ideas { 0%, 49.99% { opacity: 0; } 50%, 100% { opacity: 1; } }
+      @keyframes type-hello { 0%, 5%, 100% { width: 0; } 40%, 87% { width: 310px; } }
+      @keyframes type-ideas { 0%, 5%, 100% { width: 0; } 40%, 87% { width: 396px; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @media (prefers-color-scheme: dark) { text, .cursor { fill: #ffad72; } }
+      @media (prefers-reduced-motion: reduce) {
+        .hello, .ideas, .hello-reveal, .ideas-reveal, .cursor { animation: none; }
+        .hello { opacity: 1; } .ideas, .cursor { opacity: 0; }
+      }
+    </style>
+  </defs>
+  <g class="hello" transform="translate(197 0)" clip-path="url(#hello-clip)">
+    <text x="0" y="37" textLength="288" lengthAdjust="spacingAndGlyphs">Hey, I'm Smokiestfox!</text>
+    <rect class="cursor" x="296" y="17" width="3" height="25" rx="1"/>
+  </g>
+  <g class="ideas" transform="translate(154 0)" clip-path="url(#ideas-clip)">
+    <text x="0" y="37" textLength="374" lengthAdjust="spacingAndGlyphs">Exploring practical ideas.</text>
+    <rect class="cursor" x="382" y="17" width="3" height="25" rx="1"/>
+  </g>
+</svg>
