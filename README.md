@@ -11,6 +11,10 @@
   I enjoy exploring practical ideas and turning them into useful software.
 </p>
 
+<p align="center">
+  <sub>Currently focused on backend development and practical software ideas.</sub>
+</p>
+
 <br />
 
 <h3 align="center">Languages &amp; tools</h3>
@@ -23,6 +27,18 @@
 
 <p align="center">
   <sub>Java · TypeScript · Python · JavaScript · C++ · Docker · Figma</sub>
+</p>
+
+<br />
+
+<h3 align="center">Building in practice</h3>
+
+<p align="center">
+  <strong>Food Order System</strong><br />
+  A restaurant ordering application with a NestJS API and PostgreSQL.<br />
+  <a href="https://github.com/Smokiestfox/food-order-system-backend">Backend</a> ·
+  <a href="https://github.com/Smokiestfox/food-order-system-frontend">Frontend</a> ·
+  <a href="https://github.com/Smokiestfox/food-order-system-backend/blob/main/docs/ARCHITECTURE.md">Architecture &amp; ERD</a>
 </p>
 
 <br />
