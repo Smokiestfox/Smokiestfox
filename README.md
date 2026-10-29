@@ -7,12 +7,20 @@
 </p>
 
 <p align="center">
-  I'm working toward becoming a <strong>Backend Developer</strong>.<br />
-  I enjoy exploring practical ideas and turning them into useful software.
+  Aspiring <strong>Backend Developer</strong>, interested in practical software ideas.<br />
+  Currently building a restaurant ordering API with NestJS and PostgreSQL.
 </p>
 
+<br />
+
+<h3 align="center">Building in practice</h3>
+
 <p align="center">
-  <sub>Currently focused on backend development and practical software ideas.</sub>
+  <strong>Food Order System</strong><br />
+  A restaurant ordering application with a NestJS API and PostgreSQL.<br />
+  <a href="https://github.com/Smokiestfox/food-order-system-backend">Backend</a> ·
+  <a href="https://github.com/Smokiestfox/food-order-system-frontend">Frontend</a> ·
+  <a href="https://github.com/Smokiestfox/food-order-system-backend/blob/main/docs/ARCHITECTURE.md">Architecture &amp; ERD</a>
 </p>
 
 <br />
@@ -27,18 +35,6 @@
 
 <p align="center">
   <sub>Java · TypeScript · Python · JavaScript · C++ · Docker · Figma</sub>
-</p>
-
-<br />
-
-<h3 align="center">Building in practice</h3>
-
-<p align="center">
-  <strong>Food Order System</strong><br />
-  A restaurant ordering application with a NestJS API and PostgreSQL.<br />
-  <a href="https://github.com/Smokiestfox/food-order-system-backend">Backend</a> ·
-  <a href="https://github.com/Smokiestfox/food-order-system-frontend">Frontend</a> ·
-  <a href="https://github.com/Smokiestfox/food-order-system-backend/blob/main/docs/ARCHITECTURE.md">Architecture &amp; ERD</a>
 </p>
 
 <br />
