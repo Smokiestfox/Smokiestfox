@@ -30,6 +30,8 @@ Aspiring Backend Developer · Exploring practical ideas · Java, TypeScript & Py
 
 Edit the introduction, tool list, or contact address in `README.md`. The custom SVGs contain their own text, colors, and animation timings; they can be edited directly without a build step. When changing a typing message, also adjust its text length, reveal width, and cursor travel so they stay aligned.
 
+Keep the stack in three short sections: **Languages & tools**, **Databases** (SQLite, PostgreSQL, MySQL), and **Currently learning** (NestJS, Next.js). The learning section describes the current focus, not proficiency. Figma is omitted for now.
+
 Open the individual SVG files in a browser to check the animations, then check the README on GitHub for its final spacing. Reduced-motion preferences disable the custom banner, greeting, and footer animations in supporting browsers.
 
 ### Refreshing the contribution snake

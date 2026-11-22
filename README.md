@@ -29,12 +29,40 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,ts,python,js,cpp,docker,figma&amp;theme=dark&amp;perline=7" alt="Java, TypeScript, Python, JavaScript, C++, Docker, and Figma" />
+    <img src="https://skillicons.dev/icons?i=java,ts,python,js,cpp,docker&amp;theme=dark&amp;perline=6" alt="Java, TypeScript, Python, JavaScript, C++, and Docker" />
   </a>
 </p>
 
 <p align="center">
-  <sub>Java · TypeScript · Python · JavaScript · C++ · Docker · Figma</sub>
+  <sub>Java · TypeScript · Python · JavaScript · C++ · Docker</sub>
+</p>
+
+<br />
+
+<h3 align="center">Databases</h3>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=sqlite,postgres,mysql&amp;theme=dark&amp;perline=3" alt="SQLite, PostgreSQL, and MySQL" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>SQLite · PostgreSQL · MySQL</sub>
+</p>
+
+<br />
+
+<h3 align="center">Currently learning</h3>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nestjs,nextjs&amp;theme=dark&amp;perline=2" alt="Currently learning NestJS and Next.js" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>NestJS · Next.js</sub>
 </p>
 
 <br />
