@@ -29,12 +29,12 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,ts,python,js,cpp,docker&amp;theme=dark&amp;perline=6" alt="Java, TypeScript, Python, JavaScript, C++, and Docker" />
+    <img src="https://skillicons.dev/icons?i=java,ts,python,js,cpp,docker,figma&amp;theme=dark&amp;perline=7" alt="Java, TypeScript, Python, JavaScript, C++, Docker, and Figma" />
   </a>
 </p>
 
 <p align="center">
-  <sub>Java · TypeScript · Python · JavaScript · C++ · Docker</sub>
+  <sub>Java · TypeScript · Python · JavaScript · C++ · Docker · Figma</sub>
 </p>
 
 <br />
